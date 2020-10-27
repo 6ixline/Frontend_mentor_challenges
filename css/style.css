@@ -97,11 +97,12 @@ main{
 .faq-container{
     padding: 0 var(--pd-small);
     flex-grow:1;
-    transition: all 252ms ease-in;
+    
 }
 .faq-section>.question{
     position: relative;
      cursor: pointer;
+     transition: all 252ms ease-in;
 }
 .faq-section>.question::after{
     content:"";
