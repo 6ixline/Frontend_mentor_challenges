@@ -69,6 +69,7 @@ h3{
     padding: var(--pd-common) var(--common);
     box-shadow: 5px 0px 20px var(--background-light-gray);
     color: var(--primary-white);
+    max-width: 550px;
 }
 .card>p{
     color: var(--primary-white-70);
@@ -140,6 +141,7 @@ h3{
         width:100%;
         grid-template-rows: repeat(5,max-content);
         padding:var(--pd-common); 
+        justify-items: center;
     }
     .card-1,.card-2,.card-3,.card-4,.card-5{
         grid-column: 1/-1;
