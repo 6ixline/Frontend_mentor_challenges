@@ -1,2 +1,5 @@
-## Frontend_mentor_challenges
-1. Frontend Mentor challenge | Testimonial Grid Section 
+# Frontend_mentor_challenges | &#x1F4D8;
+
+- Frontend Mentor challenge | Testimonial Grid Section  -  [view](https://testimonial-grid.netlify.app/) | [code](https://github.com/Devsourabh/Frontend_mentor_challenges/tree/testimonial-grid)
+
+- Frontend Mentor challenge | FAQ Accordion card - [view](fmc-faq-accordion-card.netlify.app) | [code](https://github.com/Devsourabh/Frontend_mentor_challenges/tree/faq-accordian-card)
