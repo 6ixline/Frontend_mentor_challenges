@@ -116,7 +116,8 @@ main{
 }
 faq-section>.question>h4{
     position: relative;
-    transition: font-weight 252ms ease-in;
+    transition: font-weight 252ms ease-out;
+    
     height: auto;
 }
 .faq-section>.question>h4::after{
@@ -124,6 +125,7 @@ faq-section>.question>h4{
     position: absolute;
     z-index:1;
     right:var(--common);   
+     transition: transform 252ms ease-out;
 }
 .faq-section>.question:hover h4{
     font-weight: var(--fw-bold);
@@ -135,7 +137,7 @@ faq-section>.question>h4{
     transform: scaleY(0);
     height: 0;
     transform-origin: top;
-    transition: transform 252ms ease-in;
+    transition: transform 252ms ease-out;
 }
 .faq-section>.question:hover p,
 .faq-section>.question:focus p{
