@@ -116,7 +116,7 @@ main{
 }
 faq-section>.question>h4{
     position: relative;
-    transition: all 252ms ease-in;
+    transition: font-weight 252ms ease-in;
     height: auto;
 }
 .faq-section>.question>h4::after{
@@ -135,7 +135,7 @@ faq-section>.question>h4{
     transform: scaleY(0);
     height: 0;
     transform-origin: top;
-    transition: all 252ms ease-in;
+    transition: transform 252ms ease-in;
 }
 .faq-section>.question:hover p,
 .faq-section>.question:focus p{
