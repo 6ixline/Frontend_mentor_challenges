@@ -3,7 +3,6 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    transition: all 252ms ease-in;
 }
 :root{
     /* COLORS */
@@ -71,6 +70,7 @@ main{
     background-position: -40rem -18rem;
     background-size: 100%;
     background-repeat: no-repeat;
+    transition: all 252ms ease-in;
 }
 .image-container{
     position: relative;
