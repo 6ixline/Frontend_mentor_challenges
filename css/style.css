@@ -70,7 +70,7 @@ main{
     background-position: -40rem -18rem;
     background-size: 100%;
     background-repeat: no-repeat;
-    transition: all 252ms ease-in;
+   
 }
 .image-container{
     position: relative;
@@ -97,6 +97,7 @@ main{
 .faq-container{
     padding: 0 var(--pd-small);
     flex-grow:1;
+    transition: all 252ms ease-in;
 }
 .faq-section>.question{
     position: relative;
