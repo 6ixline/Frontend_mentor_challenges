@@ -1,0 +1,230 @@
+*,
+*::before,
+*::after{
+    margin:0;
+    box-sizing: inherit;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    /* FONT */
+    --ff-main: 'Spartan', sans-serif;
+    --fs-common: 12px;
+    --fw-light: 500;
+    --fw-semi-bold: 600;
+    --fw-bold: 700;
+
+    /*================
+            Colors 
+        ================*/
+    --pc-dark-gray: hsl(0, 0%, 63%);
+    --pc-black: hsl(0, 0%, 0%);
+    --pc-white: hsl(0, 0%, 100%);
+    --pc-very-dark-gray: hsl(0, 0%, 27%);
+
+    /* units */
+    --common: 1rem;
+    --gaps: 2rem;
+    --large: 3.5rem;
+
+}
+
+body{
+    box-sizing: border-box;
+    font-family: var(--ff-main);
+    font-size: var(--fs-common);
+}
+
+a{
+    color: var(--pc-white);
+    font-weight: var(--fw-light);
+    text-transform: lowercase;
+}
+h1{
+    font-size: 2.2rem;
+    font-weight: var(--fw-semi-bold);
+    line-height: var(--gaps);
+    margin-bottom: var(--gaps);
+    color:var(--pc-black);
+}
+p{
+    line-height: 1rem;
+    color:var(--pc-dark-gray);
+    word-spacing: .1rem;
+    font-weight: var(--fw-light);
+    margin-bottom: var(--gaps);
+}
+img{
+    height:100%;
+    width:100%;
+}
+main{
+    display:grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto auto;
+    position: relative;
+    max-height: 100vh;
+}
+header{
+    position: absolute;
+    left: 5%;
+    top: var(--large);
+    
+}
+h3{
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    font-weight: var(--fw-bold);
+    font-size: .7rem;
+    margin: var(--common) 0;
+}
+nav>ul{
+    display:flex;
+    gap:var(--gaps);
+    align-items:center;
+}
+nav>ul>li:first-child{
+    margin-right: var(--common);
+
+}
+ul>li>a{
+    position: relative;
+    margin-top:1rem;
+}
+ul>li>a::after{
+    content:"";
+    height: .15rem;
+    width:50%;
+    display:block;
+    position: absolute;
+    left:25%;
+    top: 150%;
+    background-color: white;
+    transform: scale(0);
+    transition: all .3s ease-in-out;
+}
+ul>li:hover a::after{
+    transform: scale(1);
+}
+
+
+.slider-images-container {
+    grid-column: 1 / 8;
+    grid-row: 1 / 1;
+    max-height: 500px;
+}
+
+.slider-content-container{
+    grid-column:  8/ -1;
+    grid-row: 1 / 2;
+    padding: 8rem 5rem;
+    position: relative;
+}
+.slider-content-container .btn{
+    color:var(--pc-black);
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-weight: var(--fw-light);
+    letter-spacing: .5rem;
+    position: relative;
+    transition: opacity .3s ease;
+}
+.slider-content-container .btn::after{
+    content: url(../images/icon-arrow.svg);
+    margin-left:var(--gaps);
+}
+.slider-content-container .btn:hover{
+    opacity: .5;
+}
+
+.dark-image-container{
+    grid-column: 1/5;
+}
+
+.about-furniture{
+    grid-column:5/9;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:var(--common) 2rem;
+}
+.about-furniture p{
+    margin-bottom: 0;
+}
+
+.light-image-container{
+    grid-column: 9/-1;
+}
+.slider-btn{
+    background: black;
+    grid-column: 8/8;
+    grid-row: 1/1;
+    position: absolute;
+    bottom: 0;
+    height:4rem;
+    width:9rem;
+    display:flex;
+}
+.slider-btn>div{
+    width:50%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.slider-btn>div:hover{
+    background-color: var(--pc-very-dark-gray);
+}
+.slider-btn>div>img{
+    height: auto;
+    width: 20%;
+}
+
+
+@media (max-width:1278px){
+    main{
+        grid-template-columns: auto;
+    }
+    .slider-images-container,
+    .slider-content-container,
+    .dark-image-container,
+    .about-furniture,
+    .light-image-container{
+        grid-column: 1/-1;
+    }
+    .slider-content-container{
+        position: static;
+        grid-row:2;
+    }
+    .dark-image-container{
+        grid-row: 3;
+    }
+    .about-furniture{
+        grid-row: 4;
+    }
+    .light-image-container{
+        grid-row: 5;
+    }
+    .slider-btn{
+        grid-column:9;
+        right: 0;
+    }
+}
+
+@media (max-width:460px){
+    .slider-btn{
+        height:2rem;
+        width:4rem;
+    }
+     .slider-content-container{
+        padding:4rem 1.5rem;
+    }
+    .slider-content-container h1{
+        font-size:var(--gaps);
+    }
+     .about-furniture{
+         padding:4rem 1.5rem;
+    }
+}
