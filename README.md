@@ -3,3 +3,5 @@
 1. Frontend Mentor challenge | Testimonial Grid Section  -  [view](https://testimonial-grid.netlify.app/) | [code](https://github.com/Devsourabh/Frontend_mentor_challenges/tree/testimonial-grid)
 
 1. Frontend Mentor challenge | FAQ Accordion card - [view](https://fmc-faq-accordion-card.netlify.app/) | [code](https://github.com/Devsourabh/Frontend_mentor_challenges/tree/faq-accordian-card)
+
+1. Frontend Mentor challenge | Room Homepage - [view](https://fmc-room-homepage.netlify.app/) | [code](https://github.com/Devsourabh/Frontend_mentor_challenges/tree/room-homepage-master)
