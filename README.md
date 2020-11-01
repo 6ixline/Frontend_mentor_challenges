@@ -9,3 +9,5 @@
 1. Frontend Mentor challenge | Room Homepage - [view](https://fmc-room-homepage.netlify.app/) | [code](https://github.com/Devsourabh/Frontend_mentor_challenges/tree/room-homepage-master)
 
 1. Frontend Mentor challenge | Huddle Landing Page - [view](https://fmc-huddle-landing-page.netlify.app/) | [code](https://github.com/Devsourabh/Frontend_mentor_challenges/tree/huddle-landing-page)
+
+1. Frontend Mentor challenge | Article Preview Component - [view](https://fmc-article-preview-component.netlify.app/) | [code](https://github.com/Devsourabh/Frontend_mentor_challenges/tree/article-preview-component)
