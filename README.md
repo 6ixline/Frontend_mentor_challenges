@@ -1,11 +1,20 @@
-## Frontend Mentor Challenges | &#x1F4D8;
+# Frontend Mentor - Article preview component
 
-1. Frontend Mentor challenge | Single Price Grid Component - [view](https://fmc-single-price-grid.netlify.app/) | [code](https://github.com/Devsourabh/Frontend_mentor_challenges/tree/single-price-grid)
+![Design preview for the Article preview component coding challenge](./images/desktop-preview.jpg)
 
-1. Frontend Mentor challenge | Testimonial Grid Section  -  [view](https://testimonial-grid.netlify.app/) | [code](https://github.com/Devsourabh/Frontend_mentor_challenges/tree/testimonial-grid)
+## Welcome! 👋
 
-1. Frontend Mentor challenge | FAQ Accordion card - [view](https://fmc-faq-accordion-card.netlify.app/) | [code](https://github.com/Devsourabh/Frontend_mentor_challenges/tree/faq-accordian-card)
+## The challenge
 
-1. Frontend Mentor challenge | Room Homepage - [view](https://fmc-room-homepage.netlify.app/) | [code](https://github.com/Devsourabh/Frontend_mentor_challenges/tree/room-homepage-master)
+The challenge is to build out this article preview component and get it looking as close to the design as possible.
 
-1. Frontend Mentor challenge | Huddle Landing Page - [view](https://fmc-huddle-landing-page.netlify.app/) | [code](https://github.com/Devsourabh/Frontend_mentor_challenges/tree/huddle-landing-page)
+### Rules : 
+
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+
+The only JavaScript you'll need for this challenge is to initiate the share options when someone clicks the share icon.
+
+Your users should be able to: 
+
+- View the optimal layout for the component depending on their device's screen size
+- See the social media share links when they click the share icon
