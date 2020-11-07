@@ -28,20 +28,20 @@ body {
   background-repeat: no-repeat;
   background-position: top left;
   background-size: cover;
-  padding: 0 4rem;
+  align-items: center;
 }
 body > main {
   flex-grow: 1;
 }
 @media (max-width: 1000px) {
   body {
-    padding: 0 2rem;
     background: url(../images/bg-mobile.svg) no-repeat;
     background-position: top-left;
     background-size: 100% auto;
   }
   body header {
     padding: 2rem 0;
+    justify-content: center;
   }
   body header .logo {
     max-width: 10rem;
@@ -50,6 +50,8 @@ body > main {
 
 header {
   padding: 3em 0;
+  width: 90%;
+  display: flex;
 }
 header .logo {
   max-width: 13rem;
@@ -131,6 +133,7 @@ footer {
   justify-content: flex-end;
   align-items: center;
   padding: 2rem 0;
+  width: 90%;
 }
 footer ul {
   display: inline-flex;

@@ -13,8 +13,7 @@ body{
     background-repeat: no-repeat;
     background-position: top left;
     background-size: cover;
-    padding: 0 4rem;
-    
+    align-items: center;
 
     &>main{
         flex-grow:1;
@@ -22,14 +21,14 @@ body{
 
      @media (max-width: $breakpoint) {
         &{
-            padding: 0 2rem;
             background: url(../images/bg-mobile.svg) no-repeat;
             background-position: top-left;
             background-size: 100% auto;
         } 
         header{
              padding: 2rem 0;
-
+             justify-content: center;
+            
              & .logo{
                  max-width: 10rem;
              }
@@ -42,7 +41,8 @@ body{
 
 header{
     padding: 3em 0;
-
+    width:90%;
+    display:flex;
     & .logo{
         max-width: 13rem;
     }
@@ -144,6 +144,7 @@ footer{
     justify-content: flex-end;
     align-items: center;
     padding: 2rem 0;
+    width: 90%;
 
     ul{
         display: inline-flex;
