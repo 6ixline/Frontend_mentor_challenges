@@ -1,15 +1,9 @@
-## Frontend Mentor Challenges | &#x1F4D8;
+# Frontend Mentor - Huddle landing page with single introductory section
 
-1. Frontend Mentor challenge | Single Price Grid Component - [view](https://fmc-single-price-grid.netlify.app/) | [code](https://github.com/Devsourabh/Frontend_mentor_challenges/tree/single-price-grid)
+![Design preview for the Huddle landing page with single introductory section](./images/desktop-preview.jpg)
 
-1. Frontend Mentor challenge | Testimonial Grid Section  -  [view](https://testimonial-grid.netlify.app/) | [code](https://github.com/Devsourabh/Frontend_mentor_challenges/tree/testimonial-grid)
+## Welcome! 👋
 
-1. Frontend Mentor challenge | FAQ Accordion card - [view](https://fmc-faq-accordion-card.netlify.app/) | [code](https://github.com/Devsourabh/Frontend_mentor_challenges/tree/faq-accordian-card)
+Frontend mentor challenge 
 
-1. Frontend Mentor challenge | Room Homepage - [view](https://fmc-room-homepage.netlify.app/) | [code](https://github.com/Devsourabh/Frontend_mentor_challenges/tree/room-homepage-master)
-
-1. Frontend Mentor challenge | Huddle Landing Page - [view](https://fmc-huddle-landing-page.netlify.app/) | [code](https://github.com/Devsourabh/Frontend_mentor_challenges/tree/huddle-landing-page)
-
-1. Frontend Mentor challenge | Article Preview Component - [view](https://fmc-article-preview-component.netlify.app/) | [code](https://github.com/Devsourabh/Frontend_mentor_challenges/tree/article-preview-component)
-
-1. Frontend Mentor challenge | Four Card Feature Section - [view](https://fmc-four-card-feature.netlify.app/) | [code](https://github.com/Devsourabh/Frontend_mentor_challenges/tree/four-card-feature)
+Thank you for checking out.

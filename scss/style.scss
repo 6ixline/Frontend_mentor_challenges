@@ -1,0 +1,180 @@
+@import 'base';
+$breakpoint: 1000px;
+
+body{
+    font-family: $font-family-body;
+    font-weight: $fw-light;
+    font-size: $font-size;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: url(../images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    padding: 0 4rem;
+    
+
+    &>main{
+        flex-grow:1;
+    }
+
+     @media (max-width: $breakpoint) {
+        &{
+            padding: 0 2rem;
+            background: url(../images/bg-mobile.svg) no-repeat;
+            background-position: top-left;
+            background-size: 100% auto;
+        } 
+        header{
+             padding: 2rem 0;
+
+             & .logo{
+                 max-width: 10rem;
+             }
+         }
+     }
+}
+
+
+
+
+header{
+    padding: 3em 0;
+
+    & .logo{
+        max-width: 13rem;
+    }
+
+   
+}
+
+
+main{
+    display: flex;
+    gap: 3rem;
+    margin-top: 1rem;
+
+    
+
+    .Image__container{
+        flex-grow: 1;
+        max-width: 40rem;
+        min-width: 30rem;
+        
+    }
+
+    .content__container{
+        max-width: 50%;
+        padding: 2.5rem 0; 
+
+        .content__container__h1{
+            font-family: $font-family-header;
+            font-size: 2.5rem;
+            max-width: 20ch;
+            min-width: 15ch;
+            margin-bottom: 1.5rem;
+        }
+        .content__container__p{
+            max-width: 50ch;
+            min-width: 40ch;
+            margin-bottom: 3rem;
+        }
+    }
+
+    .content__container_a{
+        color: $primary;
+        background: #fff;
+        padding: .8rem 3.5rem; 
+        text-decoration: none;
+        border-radius: 2rem;
+        box-shadow: 1px 5px 30px -1rem black;
+        transition: background-color .3s ease;
+
+        &:hover{
+            background-color: $secondary;
+            color: #fff;
+        }
+
+    }
+    @media (max-width: $breakpoint) {
+        & {
+            flex-direction: column;
+            gap: 2rem;
+            margin-top: .1rem;
+        }
+
+        .Image__container {
+            max-width: 35rem;
+            width: 100%;
+            min-width: 10rem;
+            display: flex;
+            align-items:center;
+            margin: 0 auto;
+        }
+        .content__container {
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content: center;
+            text-align: center;
+
+            .content__container__h1 {
+                font-size: 1.5rem;
+                max-width: 20ch;
+                min-width: 20ch;
+            }
+
+            .content__container__p {
+                font-size: .8rem
+            }
+            
+        }
+
+
+
+    }
+
+}
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2rem 0;
+
+    ul{
+        display: inline-flex;
+        list-style: none;
+        min-width: 170px;
+        max-width: 200px;
+        justify-content: space-around;
+
+        li{
+           border: 1px solid #fff;
+           border-radius: 50%; 
+           width: 40px;
+           height:40px;
+           display: flex;
+           align-items:center;
+           justify-content:center;
+           transition: border-color .3s ease;
+        }
+        li:hover ,li:hover a{
+            border-color: $secondary;
+            color: $secondary;
+        }
+        a{
+             color: white;
+             transition: color .3s ease;
+        }
+    }
+
+    @media (max-width: $breakpoint) {
+        &{
+            justify-content: center;
+        }
+    }
+}

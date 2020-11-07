@@ -1,0 +1,33 @@
+// font variables
+
+$font-family-header: 'Poppins',
+sans-serif;
+$font-family-body: 'Open Sans',
+sans-serif;
+
+$font-size: 16px;
+$fw-light: 400;
+$fw-bold: 500;
+
+// colors
+
+$primary: hsl(257, 40%, 49%);
+$secondary: hsl(300, 69%, 71%);
+
+html {
+    box-sizing: border-box;
+    background-color: $primary;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
