@@ -38,6 +38,7 @@ body > main {
     background: url(../images/bg-mobile.svg) no-repeat;
     background-position: top-left;
     background-size: 100% auto;
+    margin: 0 4rem;
   }
   body header {
     padding: 2rem 0;
